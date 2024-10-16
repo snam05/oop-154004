@@ -9,6 +9,9 @@ public class MainClass {
         for (int i = 1; i < pb1.soNhanVien() + 1; i++) {
             pb1.inTTin(i);
         }
+        System.out.println("Ten Phong Ban: " + pb1.getTenPhongBan());
+        System.out.println("So Nhan Vien: " + pb1.soNhanVien());
+        System.out.print("Tong Luong: " + pb1.tongLuong());
     }
 }
 
